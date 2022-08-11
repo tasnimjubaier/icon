@@ -8,9 +8,10 @@ import Topbar from './components/Topbar/Topbar';
 function App() {
   return (
     <div className="App">
-      {/* <Sidebar /> */}
+      <Sidebar /> 
       <Topbar />
-      <Body />
+      <Body /> 
+      {/* <Faru /> */}
     </div>
   );
 }
