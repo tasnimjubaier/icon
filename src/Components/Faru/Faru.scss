@@ -1,0 +1,38 @@
+.faru
+{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background: transparent url('faru.png') 100% 0% no-repeat padding-box;
+}
+
+
+.rotate{
+    -webkit-animation: rotation 5s linear infinite;
+    @keyframes rotation {
+        0%   {
+            color: red; transform: rotate(0deg);
+            top: 0px;
+            left: 0px;
+        }
+        35%  {
+            color: yellow; transform: rotate(90deg);
+            left: 1200px;
+            top : 450px;
+        }
+        60%  {
+            color: blue; transform: rotate(180deg);
+            left: 500px;
+            top : 0px;
+        }
+        85% {
+            left: 0px;
+            top : 450px;
+        }
+        100% {
+            color: green; transform: rotate(360deg);
+            top: 0px;
+            left: 0px;
+        }
+    }
+}

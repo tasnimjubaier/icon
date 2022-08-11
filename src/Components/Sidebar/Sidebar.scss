@@ -1,14 +1,15 @@
 .container{
-    position: relative;
+    position: absolute;
     top: 0px;
     left: 0px;
     width: 259px;
-    height: 100vh;
+    height: 987px;
     /* UI Properties */
     background: var(--unnamed-color-2541b2) 0% 0% no-repeat padding-box;
     background: #2541B2 0% 0% no-repeat padding-box;
     box-shadow: 3px 0px 20px #00000029;
     opacity: 1;
+    z-index: 3;
 
     .title{
         position: absolute;
